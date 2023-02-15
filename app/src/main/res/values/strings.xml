@@ -1,0 +1,40 @@
+<resources>
+    <!--LoginScreen-->
+    <string name="app_name">sistemainfo</string>
+    <string name="logo_sistema_info_description">Logo Sistema Info</string>
+    <string name="show_password_checkbox">Mostrar Senha</string>
+    <string name="user_label_text_field">Usuário</string>
+    <string name="password_label_text_field">Senha</string>
+    <string name="next_button">SEGUINTE</string>
+
+    <!--HomeScreen-->
+    <string name="user_information_title">Informações pessoais</string>
+    <string name="card_label_code">"Código: "</string>
+    <string name="card_label_name">"Nome: "</string>
+    <string name="card_label_cpf">"CPF: "</string>
+    <string name="card_label_address">"Endereço: "</string>
+    <string name="card_label_phone">"Telefone: "</string>
+    <string name="update_dialog_button_text">ATUALIZAR</string>
+
+    <!--RegisterScreen-->
+    <string name="save_button">SALVAR</string>
+    <string name="required_field_text">*Campo Obrigatório</string>
+    <string name="required_field_text_cpf">CPF Inválido</string>
+    <string name="user_information_title_label">Informações pessoais</string>
+    <string name="card_label_code_label">"Código "</string>
+    <string name="card_label_name_label">"Nome "</string>
+    <string name="card_label_cpf_label">"CPF "</string>
+    <string name="card_label_address_label">"Endereço "</string>
+    <string name="card_label_phone_label">"Telefone "</string>
+    <string name="user_error">*Usuário e/ou senha inválidos</string>
+    <string name="dialog_text">"Pessoa cadastrada com sucesso código: "</string>
+    <string name="dialog_button_text">SEGUINTE</string>
+    <string name="register_data_text">Cadastrar Dados</string>
+
+    <!--Commons-->
+    <string name="close_app_text">Encerrar aplicativo?</string>
+    <string name="ok_close_app">OK</string>
+    <string name="cancel_close_app">Cancel</string>
+
+</resources>
+
