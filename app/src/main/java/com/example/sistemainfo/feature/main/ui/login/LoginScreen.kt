@@ -1,6 +1,7 @@
 package com.example.sistemainfo.feature.main.ui.login
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -49,6 +50,7 @@ import com.example.sistemainfo.feature.commons.compose.image.CustomImage
 import com.example.sistemainfo.feature.commons.dimen.Size
 import com.example.sistemainfo.feature.main.HomeFlowViewModel
 import com.example.sistemainfo.feature.main.MainActivity
+import com.example.sistemainfo.ui.theme.Background
 import com.example.sistemainfo.ui.theme.Grey4C
 import com.example.sistemainfo.ui.theme.Pink40
 
@@ -95,7 +97,8 @@ private fun Screen(
             .padding(
                 horizontal = Size.SizeSM,
                 vertical = Size.SizeSM
-            ),
+            ).background(Background)
+        ,
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
